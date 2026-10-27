@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Passaparola Gizlilik Politikası</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1d1d1f; --muted:#5f6368; --line:#e3e3e8; --accent:#5b3fd1; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141418; --fg:#ececf1; --muted:#a0a3ab; --line:#2c2c34; --accent:#a996ff; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 16px 64px; }
+  h1 { font-size:28px; margin:0 0 4px; }
+  h2 { font-size:19px; margin:32px 0 8px; }
+  p, li { color:var(--fg); }
+  .muted { color:var(--muted); }
+  a { color:var(--accent); }
+  table { width:100%; border-collapse:collapse; margin:8px 0; font-size:15px; }
+  th, td { text-align:left; vertical-align:top; padding:8px; border-bottom:1px solid var(--line); }
+  hr { border:0; border-top:1px solid var(--line); margin:48px 0 24px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Passaparola Gizlilik Politikası</h1>
+<p class="muted">Son güncelleme: 28 Ekim 2026</p>
+
+<p>Bu politika, Chemistan tarafından yayımlanan <strong>Passaparola</strong> mobil oyununun ("Oyun") hangi verileri topladığını, bunları nasıl kullandığını ve haklarınızı açıklar. Oyunu kullanarak bu politikayı kabul etmiş olursunuz.</p>
+
+<h2>1. Hesap ve profil</h2>
+<p>Oyun e-posta, telefon numarası veya şifre istemez. Online düello ve sıralamalar için Firebase Authentication ile cihazınıza <strong>anonim bir kullanıcı kimliği</strong> oluşturulur. Bu kimlik, oyunda seçtiğiniz <strong>oyuncu adı</strong> ve <strong>avatar</strong> ile birlikte sunucumuzda saklanır ve diğer oyuncular tarafından görülebilir. Oyuncu adına gerçek adınızı veya kişisel bilgilerinizi yazmamanızı öneririz.</p>
+
+<h2>2. Oyun verileri</h2>
+<p>Online maçlarda verdiğiniz cevaplar, doğru/yanlış sayıları, maç sonuçları, puan ve lig bilgileriniz ile solo sıralama skorlarınız Firebase Realtime Database ve Cloud Functions üzerinde işlenir ve saklanır. Altın bakiyesi, ayarlar ve kişisel rekorlar cihazınızda yerel olarak tutulur.</p>
+
+<h2>3. Kullandığımız üçüncü taraf hizmetler</h2>
+<table>
+  <tr><th>Hizmet</th><th>Amaç</th><th>Toplanabilecek veriler</th></tr>
+  <tr><td>Google AdMob ve User Messaging Platform</td><td>Reklam gösterimi, reklam rızası</td><td>Reklam kimliği (Android Advertising ID / IDFA, izin verilirse), IP adresi, cihaz ve uygulama bilgileri, reklam etkileşimleri</td></tr>
+  <tr><td>Firebase Analytics (Google)</td><td>Kullanım istatistikleri</td><td>Uygulama örneği kimliği, cihaz modeli, işletim sistemi, ülke/şehir düzeyinde konum (IP'den), oyun içi olaylar (tur başlatma, güç kullanımı vb.)</td></tr>
+  <tr><td>Firebase Authentication, Realtime Database, Cloud Functions (Google)</td><td>Anonim giriş, online düello, sıralamalar</td><td>Anonim kullanıcı kimliği, oyuncu adı, avatar, maç ve skor verileri</td></tr>
+  <tr><td>GameAnalytics</td><td>Oyun dengesi ve performans analizi</td><td>Cihaz kimlikleri, cihaz ve oturum bilgileri, oyun içi olaylar</td></tr>
+  <tr><td>Google Play / App Store faturalandırma</td><td>Uygulama içi satın almalar</td><td>Ödemeyi mağaza işler; ödeme bilgilerinize erişmeyiz</td></tr>
+</table>
+<p>Bu hizmetlerin kendi gizlilik politikaları geçerlidir:
+<a href="https://policies.google.com/privacy">Google</a>,
+<a href="https://firebase.google.com/support/privacy">Firebase</a>,
+<a href="https://gameanalytics.com/privacy">GameAnalytics</a>,
+<a href="https://www.apple.com/legal/privacy/">Apple</a>.</p>
+
+<h2>4. Reklamlar ve rıza</h2>
+<p>Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'deki kullanıcılara ilk açılışta Google'ın rıza formu gösterilir. Kişiselleştirilmiş reklamlara verdiğiniz izni Oyun içinde <em>Ayarlar &gt; Reklam gizliliği</em> bölümünden değiştirebilirsiniz. Cihaz ayarlarınızdan reklam kimliğini sıfırlayabilir veya reklam kişiselleştirmeyi kapatabilirsiniz. "Reklamları kaldır" satın alımı geçiş reklamlarını kapatır.</p>
+
+<h2>5. Verileri nasıl kullanırız</h2>
+<ul>
+  <li>Online maçları eşleştirmek, yürütmek ve sonuçlandırmak</li>
+  <li>Sıralama tablolarını göstermek</li>
+  <li>Oyunu geliştirmek ve hataları bulmak</li>
+  <li>Reklam göstermek ve satın almaları teslim etmek</li>
+  <li>Hile ve kötüye kullanımı önlemek</li>
+</ul>
+<p>Verilerinizi satmayız.</p>
+
+<h2>6. Saklama ve silme</h2>
+<p>Profil ve maç verileri, hesabınız aktif olduğu sürece saklanır. Verilerinizin silinmesini istiyorsanız Oyun içindeki profil ekranında görünen oyuncu adınızla birlikte <a href="mailto:chemistancompany@gmail.com">chemistancompany@gmail.com</a> adresine yazın; talebiniz 30 gün içinde işlenir. Oyunu kaldırmak cihazdaki yerel verileri siler.</p>
+
+<h2>7. Çocuklar</h2>
+<p>Oyun 13 yaşın altındaki çocuklara yönelik değildir ve bilerek bu yaştaki çocuklardan kişisel veri toplamayız. Böyle bir veri toplandığını fark ederseniz bize yazın; silelim.</p>
+
+<h2>8. Güvenlik ve aktarım</h2>
+<p>Veriler, Google ve diğer hizmet sağlayıcıların sunucularında, Türkiye dışında da işlenebilir. Sunucu erişimi güvenlik kurallarıyla sınırlandırılmıştır ve aktarım şifreli bağlantı üzerinden yapılır.</p>
+
+<h2>9. Haklarınız</h2>
+<p>KVKK, GDPR ve benzeri yasalar kapsamında verilerinize erişme, düzeltme, silme ve işlenmesine itiraz etme hakkınız vardır. Bu haklar için bizimle iletişime geçin.</p>
+
+<h2>10. Değişiklikler</h2>
+<p>Bu politikayı güncelleyebiliriz. Güncel sürüm her zaman bu sayfada yayımlanır.</p>
+
+<h2>11. İletişim</h2>
+<p>Chemistan<br><a href="mailto:chemistancompany@gmail.com">chemistancompany@gmail.com</a></p>
+
+<hr>
+
+<h1>Passaparola Privacy Policy</h1>
+<p class="muted">Last updated: October 28, 2026</p>
+<p>Passaparola, published by Chemistan, does not ask for an email, phone number or password. Online duels and leaderboards use an <strong>anonymous Firebase user ID</strong>, stored with the <strong>player name and avatar</strong> you choose; other players can see them. Match answers, results, ratings and solo scores are processed in Firebase Realtime Database and Cloud Functions. Coins, settings and personal bests stay on your device.</p>
+<p>The game uses Google AdMob with the User Messaging Platform for ads and consent, Firebase Analytics and GameAnalytics for usage statistics, and Google Play / App Store billing for in-app purchases. These services may collect the advertising ID (if permitted), IP address, coarse location, device and app information, and in-game events. Their own privacy policies apply. Users in the EEA, UK and Switzerland see Google's consent form and can change their choice under <em>Settings &gt; Ad privacy</em>.</p>
+<p>We use data to run matches and leaderboards, improve the game, show ads, deliver purchases and prevent abuse. We do not sell your data. To delete your data, email <a href="mailto:chemistancompany@gmail.com">chemistancompany@gmail.com</a> with your player name; requests are handled within 30 days. The game is not directed to children under 13.</p>
+<p>Contact: Chemistan, <a href="mailto:chemistancompany@gmail.com">chemistancompany@gmail.com</a></p>
+</main>
+</body>
+</html>
